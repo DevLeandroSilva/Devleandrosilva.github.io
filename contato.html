@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/imagens/logo.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="produtos.html">
+    <title>Contato-Alura</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1>
+                <img
+                class="logo"
+                src="image/imagens/logo.png" alt=""
+                >
+            </h1>
+            <nav>
+                <ul
+                    class="listanavegacao"
+                >
+                    <li>
+                        <a
+                            href="index.html"
+                            >
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="produtos.html"
+                            >
+                            Produtos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contato.html"
+                            >
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="bkg">
+
+
+    <main>
+        
+            <form>
+                <label
+                    for="nome"
+                    class="name"
+                >
+                    Nome:
+                </label>
+    
+                <input
+                    placeholder="Marcos"
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    class="padraodados"
+                    required
+                >
+                <label
+                    for="sobrenome"
+                >
+                Sobrenome:
+            </label>
+    
+            <input
+                placeholder="Rezende de Castro"
+                type="text"
+                name="sobrenome"
+                id="sobrenome"
+                class="padraodados"
+                required
+    
+            >
+                <label
+                    for="email"
+                >
+                    E-mail:
+                </label>
+                <input
+                    placeholder="seuemail@dominio.com"
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="padraodados"
+                   required
+    
+                >
+                <label
+                for="telefone"
+                >
+                Telefone:
+                </label>
+                <input
+                placeholder="(xx) xxxx-xxxx"
+                    type="tel"
+                    name="telefone"
+                    id="telefone"
+                    class="padraodados"
+                    required
+    
+                >
+    
+            <label
+                for="mensagem"
+                >
+                Mensagem
+            </label>
+    
+                <textarea
+                    name="mensagem"
+                    id="mensagem"
+                    class="padraodados"
+    
+                >
+                </textarea>
+    
+                    <p
+                    class="preferenciacontato"
+                    >
+                        Como prefere o nosso contato?
+                    </p>
+                    <div class="radios">
+                        <label
+                            for="emailradio"
+                        >
+                        <input
+                            type="radio"
+                            value="emailradio"
+                            name="contato"
+                            id="emailradio"
+                            checked
+                        >
+                            E-mail
+                        </label>
+                    </div>
+                    <div class="radios">
+                        <label
+                            for="ligacaoradio"
+                        >
+                        <input
+                            type="radio"
+                            value="ligacaoradio"
+                            name="contato"
+                            id="ligacaoradio"
+                        >
+                        Ligação
+                        </label>
+                    </div>
+    
+                    <div class="radios">
+                        <label
+                            for="whatsappradio"
+                        >
+                        <input
+                            type="radio"
+                            value="Whatsapp"
+                            name="contato"
+                            id="whatsappradio"
+    
+                        >
+                        WhatsApp
+                        </label>
+                    </div>
+    
+               <!--condigo turno de atendimento-->
+                    <div>
+                        <p class="gostaria-atendido">
+                            Qual horário prefere ser atendido?
+                        </p>
+                        <select
+                        >
+                        <option
+                            value="Selecione"
+                            >
+                            -Selecione-
+                        </option>
+                        <option
+                            value="manha"
+                        >
+                            Manhã
+                        </option>
+                        <option
+                            value="tarde"
+                        >
+                            Tarde
+                        </option>
+                        <option value="noite">Noite</option>
+                        </select>
+                    </div>
+                </label>
+    
+    
+    
+                    <div class="gostaria-atendido">
+    
+                        <input
+                            type="checkbox"
+                            class="checkbox"
+                            required
+                            checked
+                        >
+                        Gostaria de receber nossas novidades por E-mail?
+    
+                </div>
+    
+            
+            </form>
+       
+    </main>
+</div>
+
+    
+                <input
+                    type="submit"
+                    name="enviar"
+                    value="Enviar"
+                    id="enviar"
+                    class="enviar"
+                >
+                <div class="funcionamento">
+                    Horários de Funcionamento:
+    
+                <table>
+                    <thead>
+                        <tr>
+                            <td>Dia</td>
+                            <td>Horário</td>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Segunda - Feira</td>
+                        <td>08:00 - 18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Terça - Feira</td>
+                        <td>08:00 - 18:00</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Quarta - Feira</td>
+                        <td>08:00 - 18:00</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Quinta - Feira</td>
+                        <td>08:00 - 18:00</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Sexta - Feira</td>
+                        <td>08:00 - 18:00</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Sábado</td>
+                        <td>08:00 - 18:00</td>
+                    </tr>
+    
+                    <tr>
+                        <td>Domingo</td>
+                        <td>08:00 - 18:00</td>
+                    </tr>
+    
+                </table>
+            </div>
+<br>
+            <footer>
+        <img
+            class="logofooter"
+            src="image/imagens/logo-branco.png"
+            alt=""
+        >
+        <p>
+           &copy; Barbearia Alura, site produzido por           <a
+                class="copy"
+                href=""
+                
+            >
+            DevLeandroSilva
+            </a>
+        </p>
+    </footer>
+    
+</body>
+</html>

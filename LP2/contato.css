@@ -1,0 +1,194 @@
+@charset 'UTF-8';
+*{
+    font-family: var(--fontFamily);
+}
+:root{
+    --colorBg: #8C1F28;
+    --fontFamily: arial;
+
+    --color1: #01415B;
+    --color2: #005148;
+    --color3: #019587;
+    --color4: #A6BC09;
+    --color5: #CCEA8D;
+    --color6: #591C21;
+    --color7: #044040;
+    --color8: #D92525;
+    --color9:  #F29F05;
+    --color10: #000000;
+    --color11: #f49d12; 
+    --color12: #b2abab;
+    --color13: #019587;
+    --color14: #ffffff;
+    --color15: #dfdad185;
+    --color16: #F27457;
+    --color17: #BF665E;
+    --color18: #253659;
+    --color19: #BF4158;
+    --color20: #F2AEC1;
+    --color21: #73715C;
+    --color22: #563A22;
+    --color23: #F18836;
+    --color24: #9B7C64;
+}
+body{
+    font-family: var(--fontFamily);
+    background: linear-gradient(var(--color10), var(--color21)) bottom ;
+}
+
+header{
+    background-color: var(--color9);
+    padding: 20px 0;
+}
+
+.logo{
+    margin: 10px 0;
+}
+.caixa{
+    position: relative;
+    width: 90%vh;
+    margin: 0  auto;
+}
+nav{
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+
+.listanavegacao{
+    flex: auto;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color: var(--color10);
+    margin: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline-block;
+    margin: 10px;
+}
+
+
+main{
+    margin: 0 auto;
+    width: 940px;
+}
+
+div a:hover{
+    color: var(--color14);
+}
+
+textarea{
+    height: 80px;
+    width: 55%;
+    display: block;
+}
+
+form{
+	margin: 40px 0;
+}
+
+form label, form p {
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+.checkbox {
+	margin: 20px 0;
+}
+
+.preferenciacontato{
+    margin-top: 20px;
+}
+.padraodados{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.gostaria-atendido{
+    margin-top: 20px;
+}
+.enviar{
+    margin: 0px;
+    padding: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;  
+    border:none;
+    font-weight: bold;
+    background: var(--color11);
+    color: var(--color14);
+}
+.enviar:hover{
+    font-size:  15px;
+    background: var(--color13);
+    font-weight: bold;
+    color: var(--color14);
+    width: 63px;
+    height: 63px;
+    transition: 2ms;
+    
+    
+}
+.funcionamento{
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: var(--color14);
+}
+table, td{
+    border: 1px solid var(--color10);
+    border-collapse: collapse;
+    text-align: center;
+    height: 20px;
+    width: 300px;
+    border-color: var(--color8);
+    color: var(--color14);
+    
+}
+thead{
+    background: var(--color8);
+    color: var(--color14);
+
+}
+.padraodados:hover{
+    background: var(--color15);
+
+}
+footer{
+    background-color: var(--color10);
+    text-align: center;
+    color: var(--color12);
+}
+.copy{
+    color: var(--color12);
+    font: var(--fontFamily);
+}
+.bkg{
+    background: var(--color21) ;
+    opacity: calc(95%);
+    padding-left: 60px;
+    width: 580px;
+    height: 770px;
+    margin: auto;
+    border-radius: 0 20px 0 20px;
+    margin-bottom: 20px;
+    
+}
+main{
+    color: var(--color14);
+}
+.name{
+    padding-top: 10px;
+}
+.logofooter:hover{
+    transform: rotate(20deg);
+}

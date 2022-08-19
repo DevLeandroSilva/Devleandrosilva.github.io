@@ -31,6 +31,7 @@
     --color23: #F18836;
     --color24: #9B7C64;
 }
+
 body{
     font-family: var(--fontFamily);
     background: linear-gradient(var(--color10), var(--color21)) bottom ;
@@ -191,4 +192,37 @@ main{
 }
 .logofooter:hover{
     transform: rotate(20deg);
+}
+
+
+@media screen and (max-width: 480px){
+    footer
+    header{
+    width: 100%vh;
+}
+header{
+    width: 100%vh;
+}
+footer{
+    font-size: 10px;
+}
+h1{
+    text-align: center;
+}
+nav{
+    position: static;
+    text-align: center;
+}
+nav a{
+    font-size: 1em;
+}
+form p, form{
+    width: 50vh;
+    
+}
+.bkg{
+    padding: 0 8% 10% 5%;
+    width: 85%;
+}
+
 }

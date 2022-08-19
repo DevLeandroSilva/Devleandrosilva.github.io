@@ -183,3 +183,33 @@ footer{
 .logofooter:hover{
     transform: rotate(20deg);
 }
+@media screen and (max-width: 480px){
+.caixa,
+.listabeneficio,
+.conteudo-beneficio,
+.subtitulo-principal,
+.copy,
+.logofooter
+.banner{
+    width: auto;
+}
+h1{
+    text-align: center;
+}
+nav{
+    position: static;
+}
+footer
+header{
+    width: 100%vh;
+}
+.atalho a{
+    font-size: 1em;
+}
+.bene{
+    font-size: .9em;
+    width: 100px;
+    height: 100px;
+}
+}
+

@@ -129,3 +129,33 @@ footer{
 .logofooter:hover{
     transform: rotate(20deg);
 }
+
+@media screen and (max-width: 480px){
+    footer
+    header{
+    width: 100%vh;
+}
+header{
+    width: 100%vh;
+}
+
+h1{
+    text-align: center;
+}
+nav{
+    position: static;
+    text-align: center;
+}
+nav a{
+    font-size: 1em;
+}
+.produtos li{
+    display:block;
+    margin: 20px 20px 20px 40px;
+    padding: 10px;
+}
+footer{
+    font-size: 10px;
+    padding: 0%;
+}
+}
